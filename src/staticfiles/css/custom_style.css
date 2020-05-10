@@ -1,0 +1,36 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.avatar-box {
+  height: 30px;
+  width: 30px;
+  margin-top: 5px;
+  margin-right: 5px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.avatar {
+  position: absolute;
+  margin: auto;
+  max-height: 30px;
+
+  left: -100%;
+  right: -100%;
+  top: -100%;
+  bottom: -100%;
+}
