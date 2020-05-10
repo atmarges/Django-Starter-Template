@@ -1,7 +1,19 @@
 # Django-Stater-Template
 A simple django starter template with [MDBootstrap](https://mdbootstrap.com/) design and ready-made authentication system usign [Django AllAuth](https://django-allauth.readthedocs.io/en/latest/overview.html).
 
-## Quickstart
+### Sign Up Page
+
+![signup](https://user-images.githubusercontent.com/24236098/81509610-6762b900-933e-11ea-85c3-9affdbc2a8e4.jpg)
+
+### Login Page
+
+![signin](https://user-images.githubusercontent.com/24236098/81509612-69c51300-933e-11ea-8a24-3f865752b51a.jpg)
+
+### After Login
+
+![welcome](https://user-images.githubusercontent.com/24236098/81509611-692c7c80-933e-11ea-9e99-66f72325abf3.jpg)
+
+# Quickstart
 Create a python environment and install the required modules using pip.
 
 ```bash
