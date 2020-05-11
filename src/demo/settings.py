@@ -125,7 +125,7 @@ USE_TZ = True
 
 # Custom Settings
 
-AUTH_USER_MODEL = 'core_user.User'
+AUTH_USER_MODEL = 'core.User'
 LOGIN_REDIRECT_URL = '/'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 

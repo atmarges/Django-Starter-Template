@@ -9,4 +9,4 @@ class User(AbstractUser):
                                default='img/avatar/avatar.jpg')
 
     class Meta:
-        app_label = 'core_user'
+        app_label = 'core'
