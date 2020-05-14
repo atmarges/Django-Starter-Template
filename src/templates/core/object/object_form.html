@@ -3,6 +3,9 @@
 
 {% block content %}
 
+<h5>{{ form_title }}</h5>
+<p>{{ form_description }}</p>
+
 <form action="" method="post">
   {% csrf_token %}
   {{ form|crispy }}
