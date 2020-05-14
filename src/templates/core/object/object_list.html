@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="row">
+
+  {% for object in object_list %}
+  <div class="col-md-4">
+    <div class="card my-2">
+      <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h4 class="card-title">
+          <a href="{{ object.get_absolute_url }}">{{ object }}</a>
+        </h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptatum magnam aperiam molestiae quisquam odit cumque voluptate. Quaerat ut possimus, dolorum temporibus consequuntur optio vero porro recusandae fugit, eligendi nulla.</p>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+
+</div>
+
+{% endblock content %}
