@@ -14,7 +14,7 @@ class HomeView(TemplateView):
 # class ObjectListView(ListView):
 #     model = Object
 #     template_name = 'core/object/object_list.html'
-#     context_object_name = 'object'
+#     context_object_name = 'object_list'
 
 
 # class ObjectDetailView(DetailView):
