@@ -1,5 +1,5 @@
 # Django-Stater-Template
-A simple django starter template with [MDBootstrap](https://mdbootstrap.com/) design and ready-made authentication system usign [Django AllAuth](https://django-allauth.readthedocs.io/en/latest/overview.html).
+A simple django starter template with [MDBootstrap](https://mdbootstrap.com/) design and ready-made authentication system using [Django AllAuth](https://django-allauth.readthedocs.io/en/latest/overview.html).
 
 ### Sign Up Page
 
